@@ -4,9 +4,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_GeneratingFloorResponseSpectraDirectly(object):
     def setupUi(self, GeneratingFloorResponseSpectraDirectly):
         GeneratingFloorResponseSpectraDirectly.setObjectName("GeneratingFloorResponseSpectraDirectly")
-        GeneratingFloorResponseSpectraDirectly.resize(948, 464)
-        self.verticalLayout_2 = QtWidgets.QVBoxLayout(GeneratingFloorResponseSpectraDirectly)
-        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        GeneratingFloorResponseSpectraDirectly.resize(1195, 634)
+        self.verticalLayout_5 = QtWidgets.QVBoxLayout(GeneratingFloorResponseSpectraDirectly)
+        self.verticalLayout_5.setObjectName("verticalLayout_5")
         self.label = QtWidgets.QLabel(GeneratingFloorResponseSpectraDirectly)
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
@@ -84,17 +84,18 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         self.label.setMidLineWidth(-2)
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setObjectName("label")
-        self.verticalLayout_2.addWidget(self.label)
+        self.verticalLayout_5.addWidget(self.label)
         self.horizontalLayout_2 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         self.verticalLayout_3 = QtWidgets.QVBoxLayout()
         self.verticalLayout_3.setObjectName("verticalLayout_3")
         self.label_10 = QtWidgets.QLabel(GeneratingFloorResponseSpectraDirectly)
+        self.label_10.setMaximumSize(QtCore.QSize(16777215, 30))
         palette = QtGui.QPalette()
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Button, brush)
         brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
@@ -106,10 +107,10 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ButtonText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Window, brush)
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
@@ -118,7 +119,7 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Button, brush)
         brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
@@ -130,10 +131,10 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.ButtonText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window, brush)
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
@@ -142,7 +143,7 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Button, brush)
         brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
@@ -154,10 +155,10 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ButtonText, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Base, brush)
-        brush = QtGui.QBrush(QtGui.QColor(255, 240, 245))
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
         brush.setStyle(QtCore.Qt.SolidPattern)
         palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
         brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
@@ -170,7 +171,7 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         font.setBold(True)
         font.setWeight(75)
         self.label_10.setFont(font)
-        self.label_10.setStyleSheet("background-color: rgb(255, 240, 245);\n"
+        self.label_10.setStyleSheet("background-color: rgb(245, 222, 179);\n"
 "color:rgb(8,46,84)")
         self.label_10.setObjectName("label_10")
         self.verticalLayout_3.addWidget(self.label_10)
@@ -401,24 +402,300 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         self.horizontalLayout_3.addWidget(self.save)
         self.verticalLayout_6.addLayout(self.horizontalLayout_3)
         self.verticalLayout_3.addLayout(self.verticalLayout_6)
+        self.label_11 = QtWidgets.QLabel(GeneratingFloorResponseSpectraDirectly)
+        self.label_11.setMaximumSize(QtCore.QSize(16777215, 30))
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Text, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ButtonText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Base, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Window, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
+        brush.setStyle(QtCore.Qt.NoBrush)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.PlaceholderText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Text, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.ButtonText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Base, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
+        brush.setStyle(QtCore.Qt.NoBrush)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.PlaceholderText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Text, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ButtonText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Base, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
+        brush.setStyle(QtCore.Qt.NoBrush)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
+        self.label_11.setPalette(palette)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(18)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_11.setFont(font)
+        self.label_11.setStyleSheet("background-color: rgb(245, 222, 179);\n"
+"color:rgb(8,46,84)")
+        self.label_11.setObjectName("label_11")
+        self.verticalLayout_3.addWidget(self.label_11)
+        self.horizontalLayout_4 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_4.setObjectName("horizontalLayout_4")
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.XGBoost = QtWidgets.QCheckBox(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.XGBoost.setFont(font)
+        self.XGBoost.setObjectName("XGBoost")
+        self.verticalLayout_2.addWidget(self.XGBoost)
+        self.CatBoost = QtWidgets.QCheckBox(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.CatBoost.setFont(font)
+        self.CatBoost.setObjectName("CatBoost")
+        self.verticalLayout_2.addWidget(self.CatBoost)
+        self.LightGBM = QtWidgets.QCheckBox(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.LightGBM.setFont(font)
+        self.LightGBM.setObjectName("LightGBM")
+        self.verticalLayout_2.addWidget(self.LightGBM)
+        self.horizontalLayout_4.addLayout(self.verticalLayout_2)
+        self.verticalLayout_4 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_4.setObjectName("verticalLayout_4")
+        self.horizontalLayout_6 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_6.setObjectName("horizontalLayout_6")
+        self.EC8 = QtWidgets.QCheckBox(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.EC8.setFont(font)
+        self.EC8.setObjectName("EC8")
+        self.horizontalLayout_6.addWidget(self.EC8)
+        self.horizontalLayout_5 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_5.setObjectName("horizontalLayout_5")
+        self.T1 = QtWidgets.QLabel(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.T1.setFont(font)
+        self.T1.setFrameShape(QtWidgets.QFrame.NoFrame)
+        self.T1.setLineWidth(0)
+        self.T1.setObjectName("T1")
+        self.horizontalLayout_5.addWidget(self.T1)
+        self.T1_2 = QtWidgets.QLineEdit(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        self.T1_2.setFont(font)
+        self.T1_2.setText("")
+        self.T1_2.setObjectName("T1_2")
+        self.horizontalLayout_5.addWidget(self.T1_2)
+        self.horizontalLayout_6.addLayout(self.horizontalLayout_5)
+        self.verticalLayout_4.addLayout(self.horizontalLayout_6)
+        self.ASCE = QtWidgets.QCheckBox(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.ASCE.setFont(font)
+        self.ASCE.setObjectName("ASCE")
+        self.verticalLayout_4.addWidget(self.ASCE)
+        self.NZS_2 = QtWidgets.QCheckBox(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(75)
+        self.NZS_2.setFont(font)
+        self.NZS_2.setObjectName("NZS_2")
+        self.verticalLayout_4.addWidget(self.NZS_2)
+        self.horizontalLayout_4.addLayout(self.verticalLayout_4)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_4)
+        self.horizontalLayout_7 = QtWidgets.QHBoxLayout()
+        self.horizontalLayout_7.setObjectName("horizontalLayout_7")
+        self.savePGA = QtWidgets.QPushButton(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(16)
+        self.savePGA.setFont(font)
+        self.savePGA.setStyleSheet("background-color:rgb(100,149,237);\n"
+"color:rgb(178,34,34);")
+        self.savePGA.setObjectName("savePGA")
+        self.horizontalLayout_7.addWidget(self.savePGA)
+        self.savePFA = QtWidgets.QPushButton(GeneratingFloorResponseSpectraDirectly)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(16)
+        self.savePFA.setFont(font)
+        self.savePFA.setStyleSheet("background-color:rgb(100,149,237);\n"
+"color:rgb(178,34,34);")
+        self.savePFA.setObjectName("savePFA")
+        self.horizontalLayout_7.addWidget(self.savePFA)
+        self.verticalLayout_3.addLayout(self.horizontalLayout_7)
         self.horizontalLayout_2.addLayout(self.verticalLayout_3)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
-        self.horizontalLayout = QtWidgets.QHBoxLayout()
-        self.horizontalLayout.setObjectName("horizontalLayout")
-        self.graphicsView_2 = QtWidgets.QGraphicsView(GeneratingFloorResponseSpectraDirectly)
-        self.graphicsView_2.setMaximumSize(QtCore.QSize(800, 800))
-        self.graphicsView_2.setObjectName("graphicsView_2")
-        self.horizontalLayout.addWidget(self.graphicsView_2)
-        self.graphicsView = QtWidgets.QGraphicsView(GeneratingFloorResponseSpectraDirectly)
-        self.graphicsView.setObjectName("graphicsView")
-        self.horizontalLayout.addWidget(self.graphicsView)
-        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.label_12 = QtWidgets.QLabel(GeneratingFloorResponseSpectraDirectly)
+        self.label_12.setMaximumSize(QtCore.QSize(16777215, 30))
+        palette = QtGui.QPalette()
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Text, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.ButtonText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Base, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.Window, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
+        brush.setStyle(QtCore.Qt.NoBrush)
+        palette.setBrush(QtGui.QPalette.Active, QtGui.QPalette.PlaceholderText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Text, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.ButtonText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Base, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.Window, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
+        brush.setStyle(QtCore.Qt.NoBrush)
+        palette.setBrush(QtGui.QPalette.Inactive, QtGui.QPalette.PlaceholderText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.WindowText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Button, brush)
+        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Light, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Text, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.ButtonText, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Base, brush)
+        brush = QtGui.QBrush(QtGui.QColor(245, 222, 179))
+        brush.setStyle(QtCore.Qt.SolidPattern)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.Window, brush)
+        brush = QtGui.QBrush(QtGui.QColor(8, 46, 84, 128))
+        brush.setStyle(QtCore.Qt.NoBrush)
+        palette.setBrush(QtGui.QPalette.Disabled, QtGui.QPalette.PlaceholderText, brush)
+        self.label_12.setPalette(palette)
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(18)
+        font.setBold(True)
+        font.setWeight(75)
+        self.label_12.setFont(font)
+        self.label_12.setStyleSheet("background-color: rgb(245, 222, 179);\n"
+"color:rgb(8,46,84)")
+        self.label_12.setObjectName("label_12")
+        self.verticalLayout.addWidget(self.label_12)
         self.tableWidget = QtWidgets.QTableWidget(GeneratingFloorResponseSpectraDirectly)
+        self.tableWidget.setMaximumSize(QtCore.QSize(16777215, 220))
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.tableWidget.setFont(font)
         self.tableWidget.setStyleSheet("QHeaderView::section {background-color:#E8F0F5;}")
         self.tableWidget.setObjectName("tableWidget")
         self.tableWidget.setColumnCount(31)
-        self.tableWidget.setRowCount(2)
+        self.tableWidget.setRowCount(6)
         item = QtWidgets.QTableWidgetItem()
         font = QtGui.QFont()
         font.setPointSize(10)
@@ -433,6 +710,34 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         font.setWeight(75)
         item.setFont(font)
         self.tableWidget.setVerticalHeaderItem(1, item)
+        item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
+        self.tableWidget.setVerticalHeaderItem(2, item)
+        item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
+        self.tableWidget.setVerticalHeaderItem(3, item)
+        item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
+        self.tableWidget.setVerticalHeaderItem(4, item)
+        item = QtWidgets.QTableWidgetItem()
+        font = QtGui.QFont()
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        item.setFont(font)
+        self.tableWidget.setVerticalHeaderItem(5, item)
         item = QtWidgets.QTableWidgetItem()
         font = QtGui.QFont()
         font.setPointSize(10)
@@ -653,8 +958,22 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         self.tableWidget.horizontalHeader().setDefaultSectionSize(50)
         self.tableWidget.verticalHeader().setDefaultSectionSize(60)
         self.verticalLayout.addWidget(self.tableWidget)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        self.graphicsView_2 = QtWidgets.QGraphicsView(GeneratingFloorResponseSpectraDirectly)
+        self.graphicsView_2.setMinimumSize(QtCore.QSize(400, 0))
+        self.graphicsView_2.setMaximumSize(QtCore.QSize(2000, 800))
+        self.graphicsView_2.setObjectName("graphicsView_2")
+        self.horizontalLayout.addWidget(self.graphicsView_2)
+        self.graphicsView = QtWidgets.QGraphicsView(GeneratingFloorResponseSpectraDirectly)
+        self.graphicsView.setMinimumSize(QtCore.QSize(400, 0))
+        self.graphicsView.setObjectName("graphicsView")
+        self.horizontalLayout.addWidget(self.graphicsView)
+        self.verticalLayout.addLayout(self.horizontalLayout)
         self.horizontalLayout_2.addLayout(self.verticalLayout)
-        self.verticalLayout_2.addLayout(self.horizontalLayout_2)
+        self.horizontalLayout_2.setStretch(0, 1)
+        self.horizontalLayout_2.setStretch(1, 2)
+        self.verticalLayout_5.addLayout(self.horizontalLayout_2)
 
         self.retranslateUi(GeneratingFloorResponseSpectraDirectly)
         QtCore.QMetaObject.connectSlotsByName(GeneratingFloorResponseSpectraDirectly)
@@ -687,10 +1006,29 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         self.basementstories.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Number of basement stories"))
         self.predict.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Predict"))
         self.save.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Save"))
+        self.label_11.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Figure"))
+        self.XGBoost.setText(_translate("GeneratingFloorResponseSpectraDirectly", "WOA-XGBoost"))
+        self.CatBoost.setText(_translate("GeneratingFloorResponseSpectraDirectly", "WOA-CatBoost"))
+        self.LightGBM.setText(_translate("GeneratingFloorResponseSpectraDirectly", "WOA-LightGBM"))
+        self.EC8.setText(_translate("GeneratingFloorResponseSpectraDirectly", "EC8"))
+        self.T1.setText(_translate("GeneratingFloorResponseSpectraDirectly", "T1"))
+        self.ASCE.setText(_translate("GeneratingFloorResponseSpectraDirectly", "ASCE 7-16"))
+        self.NZS_2.setText(_translate("GeneratingFloorResponseSpectraDirectly", "NZS 1170.5"))
+        self.savePGA.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Save FRS/PGA"))
+        self.savePFA.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Save FRS/PFA"))
+        self.label_12.setText(_translate("GeneratingFloorResponseSpectraDirectly", "Results"))
         item = self.tableWidget.verticalHeaderItem(0)
-        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PGA"))
+        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PGA(XGBoost)"))
         item = self.tableWidget.verticalHeaderItem(1)
-        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PFA"))
+        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PFA(XGBoost)"))
+        item = self.tableWidget.verticalHeaderItem(2)
+        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PGA(CatBoost)"))
+        item = self.tableWidget.verticalHeaderItem(3)
+        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PFA(CatBoost)"))
+        item = self.tableWidget.verticalHeaderItem(4)
+        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PGA(LightGBM)"))
+        item = self.tableWidget.verticalHeaderItem(5)
+        item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "FRS/PFA(LightGBM)"))
         item = self.tableWidget.horizontalHeaderItem(0)
         item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "0"))
         item = self.tableWidget.horizontalHeaderItem(1)
@@ -755,9 +1093,11 @@ class Ui_GeneratingFloorResponseSpectraDirectly(object):
         item.setText(_translate("GeneratingFloorResponseSpectraDirectly", "3.0"))
 
 import pickle
+import re
 import sys
 from PyQt5.QtWidgets import QMessageBox, QApplication, QFileDialog, QWidget
 import numpy as np
+from FRS import Ui_GeneratingFloorResponseSpectraDirectly
 from functools import partial
 import sys
 import pickle
@@ -792,6 +1132,14 @@ class MyUiComputer(Ui_GeneratingFloorResponseSpectraDirectly, QWidget):
         self.setupUi(self)
         self.predict.clicked.connect(partial(self.FRSPredict))
         self.save.clicked.connect(partial(self.Savetxt))
+        self.XGBoost.toggled.connect(self.update_plot)
+        self.CatBoost.toggled.connect(self.update_plot)
+        self.LightGBM.toggled.connect(self.update_plot)
+        self.EC8.toggled.connect(self.update_plot)
+        self.ASCE.toggled.connect(self.update_plot)
+        self.NZS_2.toggled.connect(self.update_plot)
+        self.savePGA.clicked.connect(partial(self.save_PGA_image))
+        self.savePFA.clicked.connect(partial(self.save_PFA_image))
 
     def FRSPredict(self,window):
         try:
@@ -829,20 +1177,33 @@ class MyUiComputer(Ui_GeneratingFloorResponseSpectraDirectly, QWidget):
                 textbox_values.extend([0, 1, 0])
             else:
                 textbox_values.extend([0, 0, 1])
-            loaded_model1 = pickle.load(open("PGAXGB.pickle.dat", "rb"))
-            loaded_model2 = pickle.load(open("PFAXGB.pickle.dat", "rb"))
+            loaded_modelPGA_XGB = pickle.load(open("PGAXGBbest最终.pickle.dat", "rb"))
+            loaded_modelPGA_CAT = pickle.load(open("PGACATbest最终.pickle.dat", "rb"))
+            loaded_modelPGA_LGBM = pickle.load(open("PGALGBMbest最终.pickle.dat", "rb"))
+            loaded_modelPFA_XGB = pickle.load(open("PFAXGBbest最终.pickle.dat", "rb"))
+            loaded_modelPFA_CAT = pickle.load(open("PFACATbest最终.pickle.dat", "rb"))
+            loaded_modelPFA_LGBM = pickle.load(open("PFALGBMbest最终.pickle.dat", "rb"))
         
             inputdata = np.array([])
 
             Stru = np.tile(textbox_values, (31, 1))
             T = np.arange(0, 3.1, 0.1)
+            self.T=T
             inputdata = np.concatenate((Stru, np.transpose([T])), axis=1)
             inputdata = np.insert(inputdata, 8, inputdata[:,-1], axis=1)
             inputdata = np.delete(inputdata, -1, axis=1)
-            FRS_PGA = loaded_model1.predict(inputdata)
-            FRS_PFA = loaded_model2.predict(inputdata)
-            self.FRS_PGA = FRS_PGA
-            self.FRS_PFA = FRS_PFA
+            FRS_PGA_XGB = loaded_modelPGA_XGB.predict(inputdata)
+            FRS_PGA_CAT = loaded_modelPGA_CAT.predict(inputdata)
+            FRS_PGA_LGBM = loaded_modelPGA_LGBM.predict(inputdata)
+            FRS_PFA_XGB = loaded_modelPFA_XGB.predict(inputdata)
+            FRS_PFA_CAT = loaded_modelPFA_CAT.predict(inputdata)
+            FRS_PFA_LGBM = loaded_modelPFA_LGBM.predict(inputdata)
+            self.FRS_PGA_XGB = FRS_PGA_XGB
+            self.FRS_PGA_CAT = FRS_PGA_CAT
+            self.FRS_PGA_LGBM = FRS_PGA_LGBM
+            self.FRS_PFA_XGB = FRS_PFA_XGB
+            self.FRS_PFA_CAT = FRS_PFA_CAT
+            self.FRS_PFA_LGBM = FRS_PFA_LGBM
             self.T = T
             self.N1=N1
             self.Ll1=Ll1
@@ -855,35 +1216,190 @@ class MyUiComputer(Ui_GeneratingFloorResponseSpectraDirectly, QWidget):
             self.F1=F1
             self.d1=d1
 
-
         except Exception as e:
             QMessageBox.warning(self, 'Warning', f"Error:{e}.", QMessageBox.Ok)
 
+        cols_num = self.tableWidget.columnCount()
+
+        FRS_PGA_XGB_list = list(FRS_PGA_XGB)
+        FRS_PFA_XGB_list = list(FRS_PFA_XGB)
+        FRS_PGA_CAT_list = list(FRS_PGA_CAT)
+        FRS_PFA_CAT_list = list(FRS_PFA_CAT)
+        FRS_PGA_LGBM_list = list(FRS_PGA_LGBM)
+        FRS_PFA_LGBM_list = list(FRS_PFA_LGBM)
+
+        for i in range(cols_num):           
+            FRS_PGA_XGB2 = "{:.3f}".format(FRS_PGA_XGB_list[i])
+            FRS_PFA_XGB2 = "{:.3f}".format(FRS_PFA_XGB_list[i])
+            FRS_PGA_CAT2 = "{:.3f}".format(FRS_PGA_CAT_list[i])
+            FRS_PFA_CAT2 = "{:.3f}".format(FRS_PFA_CAT_list[i])
+            FRS_PGA_LGBM2 = "{:.3f}".format(FRS_PGA_LGBM_list[i])
+            FRS_PFA_LGBM2 = "{:.3f}".format(FRS_PFA_LGBM_list[i])
+            item_PGA_XGB = QTableWidgetItem(FRS_PGA_XGB2)
+            item_PFA_XGB = QTableWidgetItem(FRS_PFA_XGB2)
+            item_PGA_CAT = QTableWidgetItem(FRS_PGA_CAT2)
+            item_PFA_CAT = QTableWidgetItem(FRS_PFA_CAT2)
+            item_PGA_LGBM = QTableWidgetItem(FRS_PGA_LGBM2)
+            item_PFA_LGBM = QTableWidgetItem(FRS_PFA_LGBM2)
+            self.tableWidget.setItem(0, i, item_PGA_XGB)
+            self.tableWidget.setItem(1, i, item_PFA_XGB)
+            self.tableWidget.setItem(2, i, item_PGA_CAT)
+            self.tableWidget.setItem(3, i, item_PFA_CAT)
+            self.tableWidget.setItem(4, i, item_PGA_LGBM)
+            self.tableWidget.setItem(5, i, item_PFA_LGBM)
+    def update_plot(self):
+        
         F1 = MyFigure(width=5, height=4, dpi=100)
+        self.F1=F1
         F1.axes1 = F1.fig.add_subplot(111)
-        F1.axes1.plot(T, FRS_PGA)
+        if self.XGBoost.isChecked():
+            F1.axes1.plot(self.T, self.FRS_PGA_XGB, color='blue', linestyle='-', linewidth=2, label='XGBoost')
+        if self.CatBoost.isChecked():
+            F1.axes1.plot(self.T, self.FRS_PGA_CAT, color='red', linestyle='-.', linewidth=2, label='CatBoost')
+        if self.LightGBM.isChecked():
+            F1.axes1.plot(self.T, self.FRS_PGA_LGBM, color='green', linestyle='--', linewidth=2, label='LightGBM')
+        zh1 = float(self.zh1) 
+        ECMAX = (3 * (1 + zh1)) / (1 + (1 - self.T / 0.3) ** 2) - 0.5 
+        if self.EC8.isChecked():
+            Ts_text = self.T1_2.text()
+            if not Ts_text:
+                QMessageBox.warning(self, 'Warning', 'Please enter a value for T1.', QMessageBox.Ok)
+                return
+            
+            try:
+                Ts = float(Ts_text)
+                if Ts <= 0:
+                    raise ValueError("Ts must be positive")
+            except ValueError:
+                QMessageBox.warning(self, 'Warning', 'Invalid value for T1. Please enter a positive number.', QMessageBox.Ok)
+                return
+            
+            zh1 = float(self.zh1) 
+            
+            SA1_EC = np.zeros_like(self.T)
+            try:
+                SA1_EC = (3 * (1 + zh1)) / (1 + (1 - self.T / Ts) ** 2) - 0.5
+            except Exception as e:
+                print(f"Calculation error: {e}")
+                return
+            SA1_EC = np.clip(SA1_EC, 1, None)   
+            F1.axes1.plot(self.T, SA1_EC, color='orange', linestyle='-', linewidth=1.5, label='EC8')
+        
+        a_p = [1 if t < 0.06 else 2.5 for t in self.T]
+        zh1 = float(self.zh1)
+        SA1_ASCE = [a * (1 + 2 * zh1) / 1.5 for a in a_p]
+        if self.ASCE.isChecked():
+            F1.axes1.plot(self.T, SA1_ASCE, color='darkviolet', linestyle='-', linewidth=1.5, label='ASCE 7-16')
+        
+        C = [None] * len(self.T)
+        zh1 = float(self.zh1)
+        for i in range(len(self.T)):
+            if self.T[i] <= 0.75:
+                C[i] = 2
+            elif 0.75 < self.T[i] < 1.5:
+                C[i] = 2 - (self.T[i] - 0.75) / (1.5 - 0.75) * (2.0 - 0.5)
+            else:
+                C[i] = 0.5
+
+        if zh1 == 0:
+            CH = 1
+        elif 0 < zh1 < 0.2:
+            CH = 1 + 10 * zh1
+        else:
+            CH = 3
+        SA1_NZS = [CH * c for c in C]
+        if self.NZS_2.isChecked():
+            F1.axes1.plot(self.T, SA1_NZS, color='orange', linestyle='-.', linewidth=1.5, label='NZS 1170.5')   
         # F1.axes1.set_title("FRS/PGA")
-        F1.axes1.set_ylim(np.min(FRS_PGA)-0.5, np.ceil(np.max(FRS_PGA)+0.5))
+        max_values = np.array([np.max(self.FRS_PGA_XGB),np.max(self.FRS_PGA_CAT),np.max(self.FRS_PGA_LGBM),np.max(ECMAX),np.max(SA1_ASCE),np.max(SA1_NZS)])
+        min_values = np.array([np.min(self.FRS_PGA_XGB),np.min(self.FRS_PGA_CAT),np.min(self.FRS_PGA_LGBM),np.min(ECMAX),np.min(SA1_ASCE),np.min(SA1_NZS)])
+        max_value = np.max(max_values)
+        min_value = np.min(min_values)
+        F1.axes1.set_ylim(min_value-0.5, np.ceil(max_value+0.5))
         F1.axes1.set_xticks(np.arange(0, 3.1, 0.5))
-        F1.axes1.set_yticks(np.linspace(0, np.ceil(np.max(FRS_PGA)+0.5), 5))
-        F1.axes1.set_xlabel("T (s)")
+        F1.axes1.set_yticks(np.linspace(0, np.ceil(max_value+0.5), 5))
+        F1.axes1.set_xlabel("$T_{a}$ (s)")
         F1.axes1.set_ylabel("FRS/PGA")
+        F1.axes1.legend()
         width,height = self.graphicsView_2.width(),self.graphicsView_2.height()
         F1.resize(width*0.9,height*0.8)
-        F1.fig.subplots_adjust(bottom=0.3, left=0.25)
+        F1.fig.subplots_adjust(bottom=0.2, left=0.2)
 
         F2 = MyFigure(width=5, height=4, dpi=100)
+        self.F2 = F2
         F2.axes1 = F2.fig.add_subplot(111)
-        F2.axes1.plot(T, FRS_PFA)
+        if self.XGBoost.isChecked():
+            F2.axes1.plot(self.T, self.FRS_PFA_XGB, color='blue', linestyle='-', linewidth=2, label='XGBoost')
+        if self.CatBoost.isChecked():  
+            F2.axes1.plot(self.T, self.FRS_PFA_CAT, color='red', linestyle='-.', linewidth=2, label='CatBoost')
+        if self.LightGBM.isChecked():
+            F2.axes1.plot(self.T, self.FRS_PFA_LGBM, color='green', linestyle='--', linewidth=2, label='LightGBM')
+        zh1 = float(self.zh1) 
+        ECMAX = ((3 * (1 + zh1)) / (1 + (1 - self.T / 0.3) ** 2) - 0.5)*(1/(1+1.5*zh1))
+        ECMAX2 = np.clip(ECMAX, 1/(1+1.5*zh1), None) 
+        if self.EC8.isChecked():
+            Ts_text = self.T1_2.text()
+            if not Ts_text:
+                QMessageBox.warning(self, 'Warning', 'Please enter a value for T1.', QMessageBox.Ok)
+                return
+            try:
+                Ts = float(Ts_text)
+                if Ts <= 0:
+                    raise ValueError("Ts must be positive")
+            except ValueError:
+                QMessageBox.warning(self, 'Warning', 'Invalid value for T1. Please enter a positive number.', QMessageBox.Ok)
+                return           
+            SA1_EC = np.zeros_like(self.T)
+            try:
+                SA1_EC = ((3 * (1 + zh1)) / (1 + (1 - self.T / Ts) ** 2) - 0.5)*(1/(1+1.5*zh1))
+            except Exception as e:
+                print(f"Calculation error: {e}")
+                return
+            SA1_EC = np.clip(SA1_EC, 1/(1+1.5*zh1), None) 
+            F2.axes1.plot(self.T, SA1_EC, color='orange', linestyle='-', linewidth=1.5, label='EC8')
+      
+        a_p = [1 if t < 0.06 else 2.5 for t in self.T]
+        zh1 = float(self.zh1)
+        SA1_ASCE = [a * (1 + 2 * zh1) / 1.5 for a in a_p]
+        SA2_ASCE= [val * (1/(1+2*zh1)) for val in SA1_ASCE]
+        if self.ASCE.isChecked():
+            F2.axes1.plot(self.T, SA2_ASCE, color='darkviolet', linestyle='--', linewidth=1.5, label='ASCE 7-16')
+        
+        C = [None] * len(self.T)
+        zh1 = float(self.zh1)
+        for i in range(len(self.T)):
+            if self.T[i] <= 0.75:
+                C[i] = 2
+            elif 0.75 < self.T[i] < 1.5:
+                C[i] = 2 - (self.T[i] - 0.75) / (1.5 - 0.75) * (2.0 - 0.5)
+            else:
+                C[i] = 0.5
+
+        if zh1 == 0:
+            CH = 1
+        elif 0 < zh1 < 0.2:
+            CH = 1 + 10 * zh1
+        else:
+            CH = 3
+        SA1_NZS = [CH * c for c in C]
+        SA2_NZS= [val * (1/(1+2*zh1)) for val in SA1_NZS]
+        if self.NZS_2.isChecked():
+            F2.axes1.plot(self.T, SA2_NZS, color='orange', linestyle='-.', linewidth=1.5, label='NZS 1170.5')
         # F1.axes1.set_title("FRS/PFA")
-        F2.axes1.set_ylim(np.min(FRS_PFA)-0.5, np.ceil(np.max(FRS_PFA)+0.5))
+        
+        max_values = np.array([np.max(self.FRS_PFA_XGB),np.max(self.FRS_PFA_CAT),np.max(self.FRS_PFA_LGBM),np.max(ECMAX),np.max(SA2_ASCE),np.max(SA2_NZS)])
+        min_values = np.array([np.min(self.FRS_PFA_XGB),np.min(self.FRS_PFA_CAT),np.min(self.FRS_PFA_LGBM),np.min(ECMAX),np.min(SA2_ASCE),np.min(SA2_NZS)])
+        max_value = np.max(max_values)
+        min_value = np.min(min_values)
+        F2.axes1.set_ylim(min_value-0.5, np.ceil(max_value+0.5))
         F2.axes1.set_xticks(np.arange(0, 3.1, 0.5))
-        F2.axes1.set_yticks(np.linspace(0, np.ceil(np.max(FRS_PFA)+0.5), 5))
-        F2.axes1.set_xlabel("T (s)")
+        F2.axes1.set_yticks(np.linspace(0, np.ceil(max_value+0.5), 5))
+        F2.axes1.set_xlabel("$T_{a}$ (s)")
         F2.axes1.set_ylabel("FRS/PFA")
+        F2.axes1.legend()
         width,height = self.graphicsView.width(),self.graphicsView.height()
         F2.resize(width*0.9,height*0.8)
-        F2.fig.subplots_adjust(bottom=0.3, left=0.25)
+        F2.fig.subplots_adjust(bottom=0.2, left=0.2)
 
         self.scene = QGraphicsScene()
         self.scene.addWidget(F1)
@@ -892,23 +1408,18 @@ class MyUiComputer(Ui_GeneratingFloorResponseSpectraDirectly, QWidget):
         self.scene2.addWidget(F2)
         self.graphicsView.setScene(self.scene2)
 
-        cols_num = self.tableWidget.columnCount()
-
-        FRS_PGA_list = list(FRS_PGA)
-        FRS_PFA_list = list(FRS_PFA)
-
-        for i in range(cols_num):           
-            FRS_PGA2 = "{:.3f}".format(FRS_PGA_list[i])
-            FRS_PFA2 = "{:.3f}".format(FRS_PFA_list[i])
-            item_pga = QTableWidgetItem(FRS_PGA2)
-            item_pfa = QTableWidgetItem(FRS_PFA2)
-            self.tableWidget.setItem(0, i, item_pga)
-            self.tableWidget.setItem(1, i, item_pfa)
-
     def Savetxt(self):
         try:
-            data = np.concatenate((np.transpose([self.T]), np.transpose([self.FRS_PGA]), np.transpose([self.FRS_PFA])), axis=1)
-
+            data = (
+                    np.transpose([self.T]),
+                    np.transpose([self.FRS_PGA_XGB]),
+                    np.transpose([self.FRS_PFA_XGB]),
+                    np.transpose([self.FRS_PGA_CAT]),
+                    np.transpose([self.FRS_PFA_CAT]),
+                    np.transpose([self.FRS_PGA_LGBM]),
+                    np.transpose([self.FRS_PFA_LGBM])
+                )
+            data2 = np.concatenate(data, axis=1)
             options = QFileDialog.Options()
             filePath, _ = QFileDialog.getSaveFileName(self, "Save File", "", "Text Files (*.txt)", options=options)
 
@@ -923,12 +1434,38 @@ class MyUiComputer(Ui_GeneratingFloorResponseSpectraDirectly, QWidget):
                 line9 = 'Direction: {}'.format(self.F1)
                 line10 = 'Damping ratio: {}'.format(self.d1)
                 line5 = 'Soil condition: {}'.format(self.S1)
-                column_names = ['T', 'FRS/PGA', 'FRS/PFA']
+                column_names = ['Ta', 'FRS/PGA (XGBoost)', 'FRS/PFA (XGBoost)', 'FRS/PGA (CatBoost)', 'FRS/PFA (CatBoost)', 'FRS/PGA (LightGBM)', 'FRS/PFA (LightGBM)']
                 header_lines = [line1, line2, line3, line4, line6, line7, line8, line9, line10, line5]
                 header = '\n'.join(header_lines) + '\n' + '\t'.join(column_names)
-                np.savetxt(filePath, data, fmt='%0.3f', header=header, comments='')
+                np.savetxt(filePath, data2, fmt='%0.3f', header=header, comments='')
         except Exception as e:
             QMessageBox.warning(self, 'Warning', f"Error:{e}.", QMessageBox.Ok)
+
+    def save_PGA_image(self):
+        try:
+            fig = self.F1.fig
+            file_dialog = QFileDialog(self)
+            file_dialog.setNameFilter("PNG files (*.png);;JPEG files (*.jpg *.jpeg)")
+            if file_dialog.exec_():
+                file_path = file_dialog.selectedFiles()[0]
+                fig.savefig(file_path)
+        except Exception as e:
+            QMessageBox.warning(self, 'Warning', f"Error: {e}", QMessageBox.Ok)
+
+    def save_PFA_image(self):
+        try:
+            fig = self.F2.fig
+            file_dialog = QFileDialog(self)
+            file_dialog.setNameFilter("PNG files (*.png);;JPEG files (*.jpg *.jpeg)")
+            if file_dialog.exec_():
+                file_path = file_dialog.selectedFiles()[0]
+                fig.savefig(file_path)
+        except Exception as e:
+            QMessageBox.warning(self, 'Warning', f"Error: {e}", QMessageBox.Ok)
+
+        
+
+
 
 
 if __name__ == "__main__":
